@@ -58,7 +58,7 @@ const offset2 = ele => {
 
   // 如果当前DOM节点满足display === 'none'，则直接返回 { top: 0, left: 0 }
   if (window.getComputedStyle(ele)['display'] === 'none') {
-    return resultdel
+    return result
   }
 
   result = ele.getBoundingClientRect()
